@@ -1,16 +1,97 @@
 html,
 body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    padding: 0;
+    background-color: #32b5ce;
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
 a {
-  color: inherit;
-  text-decoration: none;
+    color: inherit;
+    text-decoration: none;
 }
 
 * {
-  box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+main {
+    width: 70vw;
+    height: 80vh;
+    border-radius: 20px;
+    background-color: #ffff;
+    margin: 50px auto;
+    box-shadow: 0px 0px 25px grey;
+}
+.days {
+    width: 220px;
+}
+.day_button_inactive {
+    width: 200px;
+    height: 40px;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    outline: none;
+    margin: 10px 10px;
+}
+.day_button {
+    color: #ffff;
+    background-color: #6862b8;
+}
+.fields {
+    width: 220px;
+}
+.time_wrapper input {
+    width: 200px;
+    height: 40px;
+    outline: none;
+}
+.time_wrapper {
+    width: 200px;
+    height: 40px;
+    color: #ffff;
+    border: none;
+    outline: none;
+    margin-bottom: 20px;
+}
+.wrapper {
+    display: flex;
+}
+.fields,
+.fields_too {
+    margin-top: 10px;
+}
+.submit {
+    color: #ffff;
+    background-color: pink;
+    width: 200px;
+    height: 40px;
+    border: none;
+    outline: none;
+    margin: 10px 10px;
+}
+.submit_butoon {
+    display: flex;
+    justify-content: flex-end;
+    width: 80%;
+}
+.header {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+}
+.header h1 {
+    /* margin-top: 30px; */
+}
+.profile > img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.wrap {
+    display: flex;
+    width: 300px;
+    justify-content: space-evenly;
+    margin-top: 10px;
 }
